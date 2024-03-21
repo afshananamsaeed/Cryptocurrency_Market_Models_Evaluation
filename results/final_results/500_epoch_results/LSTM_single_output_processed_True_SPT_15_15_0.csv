@@ -1,0 +1,2 @@
+network_name,feature,lr,test_mse_loss,test_mae,test_mape,val_loss,val_mae,val_mape
+LSTM,textblob_processed_data_polarity_score,0.00034,578885.0744818004,567.4021833972818,0.03211232076667453,532217.5772748162,532.6429726095761,0.012734491624595487
