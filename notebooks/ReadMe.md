@@ -1,0 +1,12 @@
+- This directory contains all the notebooks.
+- All the plotting and analysis for the final results can be found in the Model Analysis directory. 
+    - The MAEFeature_AllModelPlots_.. contain the best model plots along with the codes for making the tables related to the changing percentage performance when moving from (a) Non-Processed to Processed, (b) 100 epochs with early stopping to 500 epochs, (c) 5 to 15 to 30 input dimensions. Set the W=0, W=1 and W=7 accordingly.
+    - The final_prediction_plot notebook contains plots for predicting the Bitcoin prices using the LSTM-GRU Ensemble models.
+    - The ml_linear_model_results contain certain results using ML models (not used for the final evaluation).
+    - non_processed_data and processed_data contains certain data manipulation scripts for processed and non-processed final outputs.
+
+- The model_results directory contains additional final result analysis scripts.
+- The Social Media directory has two parts- analysis and Statistical Analysis.
+    - The analysis directory has all the EDA scripts.
+    - The Statistical Analysis library has all the Statistical Analysis scripts for processed and non-processed counterparts of Bot Data, Influencer Data and Normal Data with and without bots.
+- The Time Series directory has some traditional Time Series methods like ARIMA tried on Bitcoin prices -  These do not include the sentiments.
