@@ -1,0 +1,2 @@
+copy fonts to
+${VENV}/lib/python2.7/site-packages/matplotlib/mpl-data/fonts
